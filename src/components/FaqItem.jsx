@@ -2,7 +2,8 @@ import clsx from "clsx";
 import { useState } from "react";
 
 const FaqItem = ({ item, index }) => {
-  const [activeId, setActiveId] = useState(null);
+  const [
+      activeId, setActiveId] = useState(null);
 
   const active = activeId === item.id;
 
